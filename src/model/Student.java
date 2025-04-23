@@ -14,7 +14,7 @@ public class Student {
 	public Student() {}
 	
 	// parameterized constructor
-	public Student(int student_id, String nam, int age, String grade, String email, String phone, String address, String name) {
+	public Student(int student_id, String nam, int age, String grade, String email, String phone, String address, String name, String password) {
 		this.student_id = student_id;
 		this.name = name;
 		this.age = age;
