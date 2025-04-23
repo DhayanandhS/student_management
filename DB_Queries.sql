@@ -22,6 +22,14 @@ create table students(
     address text
 );
 
+alter table students add password varchar(100) not null;
+
+select * from students;
+
+update students set password = 'studpass1' where student_id = 1;
+
+update students set password = 'studpass2' where student_id = 2;
+
 insert into students(name, age, grade, email, phone, address) values
 ('Aarav', 15, '10', 'aarav@gmail.com', '2956147874', 'Chennai'),
 ('Diya Sharma', 14, '9', 'diya@example.com', '9123456780', 'Coimbatore');
